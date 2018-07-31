@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Card List Item Library</string>
+    <string name="content_image">Content Image</string>
+    <string name="header_image">Header Image</string>
+</resources>

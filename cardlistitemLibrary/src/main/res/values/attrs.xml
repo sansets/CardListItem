@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CardListItem">
+        <attr name="headerImageSrc" format="reference" />
+        <attr name="headerTitle" format="string" />
+        <attr name="contentImageSrc" format="reference" />
+        <attr name="contentImageVisibility" format="enum">
+            <enum name="gone" value="1" />
+        </attr>
+        <attr name="contentTitle" format="string" />
+        <attr name="contentShortDescription" format="string" />
+        <attr name="timestampt" format="string" />
+    </declare-styleable>
+</resources>
