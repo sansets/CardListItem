@@ -88,11 +88,11 @@ class CardListItem @JvmOverloads constructor(
             contentTitle = getString(R.styleable.CardListItem_contentTitle)
             contentShortDescription = getString(R.styleable.CardListItem_contentShortDescription)
             timestamp = getString(R.styleable.CardListItem_timestampt)
-            setContentTextLayout(headerTitle, contentShortDescription, timestamp)
+            setContentTextLayout()
         }
     }
 
-    private fun setContentTextLayout(contentTitle: String?, contentShortDescription: String?, timestamp: String?) {
+    private fun setContentTextLayout() {
         if (contentTitle == null && contentShortDescription == null && timestamp == null) {
             contentTextLayout.visibility = View.GONE
         }
