@@ -44,6 +44,7 @@ class MainAdapter(private var context: Context) : RecyclerView.Adapter<MainAdapt
                 val timeCompare = DateUtils.getRelativeTimeSpanString(timeUploaded,
                         System.currentTimeMillis(), 0) as String
 
+                itemView.card_list_item.headerToolbar.menu.clear()
                 itemView.card_list_item.headerToolbar.inflateMenu(R.menu.menu_post)
                 Glide.with(context).load(it?.user?.image).into(itemView.card_list_item.headerImageView)
                 itemView.card_list_item.headerTitle = it?.user?.name
