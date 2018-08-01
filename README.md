@@ -4,6 +4,18 @@
 
 Custom list item with CardView
 
+![alt text](https://firebasestorage.googleapis.com/v0/b/cardlistitem.appspot.com/o/images%2FScreenshot_2018-08-01-09-03-44-024_com.cardlistitem.cardlistitem.png?alt=media&token=15c01d35-3a5c-45c6-81e8-225759f696f0)
+
+![alt text](https://firebasestorage.googleapis.com/v0/b/cardlistitem.appspot.com/o/images%2FScreenshot_2018-08-01-09-05-15-899_com.cardlistitem.cardlistitem.png?alt=media&token=3a999dac-0b40-469e-89ed-62596c22dbcd)
+
+![alt text](https://firebasestorage.googleapis.com/v0/b/cardlistitem.appspot.com/o/images%2FScreenshot_2018-08-01-09-09-13-692_com.cardlistitem.cardlistitem.png?alt=media&token=af7c03fa-9b1e-4261-8b47-6f7549856786)
+
+![alt text](https://firebasestorage.googleapis.com/v0/b/cardlistitem.appspot.com/o/images%2FScreenshot_2018-08-01-09-10-40-673_com.cardlistitem.cardlistitem.png?alt=media&token=9d0b0446-74c4-4552-bf9d-ed9d1ee0f539)
+
+![alt text](https://firebasestorage.googleapis.com/v0/b/cardlistitem.appspot.com/o/images%2FScreenshot_2018-08-01-09-02-45-030_com.cardlistitem.cardlistitem.png?alt=media&token=2fdbff97-62e8-4d59-a934-0377ab0a32ad)
+
+## Getting Started
+
 ### Prerequisites
 
 Add the dependencies to enable layout preview 
@@ -32,7 +44,7 @@ Step 2. Add the dependency
 
 ```
 dependencies {
-    implementation 'com.github.sandisetiawan444:CardListItem:1.0.0'
+    implementation 'com.github.sandisetiawan444:CardListItem:1.0.1'
 }
 ```
 
