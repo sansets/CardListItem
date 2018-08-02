@@ -76,7 +76,7 @@ There are several views you can access:
 | contentImageView | Square ImageView |
 | contentTitleTextview | This TextView will disappear if not set |
 | contentShortDescriptionTextView | This TextView will disappear if not set |
-| contentTextLayout | This TextView will disappear if not set |
+| contentTextLayout | This LinearLayout will disappear if not set |
 | timestamptTextView | This TextView will disappear if not set |
 
 ## Methods & Attributes
