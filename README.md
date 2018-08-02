@@ -16,17 +16,6 @@ Custom list item with CardView
 
 ## Getting Started
 
-### Prerequisites
-
-Add the dependencies to enable layout preview 
-
-```
-dependencies {
-    implementation 'com.android.support:cardview-v7:27.1.1'
-    implementation 'de.hdodenhof:circleimageview:2.2.0'
-}
-```
-
 ### Installing
 
 Step 1. Add the JitPack repository in your root build.gradle at the end of repositories:
@@ -71,9 +60,9 @@ There are several views you can access:
 | Method | Description |
 |---|---|
 | headerToolbar | android.support.v7.widget.Toolbar. Contains headerImageView and headerTitleTextView |
-| headerImageView | hdodenhof/CircleImageView |
+| headerImageView | CircleImageView |
 | headerTitleTextView | This TextView will disappear if not set |
-| contentImageView | Square ImageView |
+| contentImageView | SquareImageView |
 | contentTitleTextview | This TextView will disappear if not set |
 | contentShortDescriptionTextView | This TextView will disappear if not set |
 | contentTextLayout | This LinearLayout will disappear if not set |
