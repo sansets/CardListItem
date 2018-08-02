@@ -63,3 +63,34 @@ Include the CardListItem widget in your layout
     app:headerTitle="Name"
     app:timestampt="1 hour ago" />
 ```
+
+## Views
+
+There are several views you can access:
+
+| Method | Description |
+|---|---|
+| headerToolbar | android.support.v7.widget.Toolbar. Contains headerImageView and headerTitleTextView |
+| headerImageView | hdodenhof/CircleImageView |
+| headerTitleTextView | This TextView will disappear if not set |
+| contentImageView | Square ImageView |
+| contentTitleTextview | This TextView will disappear if not set |
+| contentShortDescriptionTextView | This TextView will disappear if not set |
+| contentTextLayout | This TextView will disappear if not set |
+| timestamptTextView | This TextView will disappear if not set |
+
+## Methods & Attributes
+
+| Method & Attribute | Description |
+|---|---|
+| headerImageSrc | Get or set headerImageView image resource |
+| headerTitle | Get or set headerTitleTextView text value |
+| contentImageSrc | Get or set contentImageView resource |
+| contentImageVisibility | Set visibiliy of contentImageView. If set to gone, the image will disappear |
+| contentTitle | Get or set contentTitleTextview text value |
+| contentShortDescription | Get or set contentShortDescriptionTextView text value. Maximum of two lines of text |
+| timestampt | Get or set timestamptTextView text value |
+
+## License
+
+This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details
