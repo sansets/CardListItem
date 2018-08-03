@@ -80,6 +80,3 @@ There are several views you can access:
 | contentShortDescription | Get or set contentShortDescriptionTextView text value. Maximum of two lines of text |
 | timestampt | Get or set timestamptTextView text value |
 
-## License
-
-This project is licensed under the Apache License - see the [LICENSE](LICENSE) file for details
