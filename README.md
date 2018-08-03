@@ -61,7 +61,7 @@ There are several views you can access:
 |---|---|
 | headerToolbar | android.support.v7.widget.Toolbar. Contains headerImageView and headerTitleTextView |
 | headerImageView | CircleImageView |
-| headerTitleTextView | This TextView will disappear if not set |
+| headerTitleTextView | TextView. headerToolbar will disappear if not set |
 | contentImageView | SquareImageView |
 | contentTitleTextview | This TextView will disappear if not set |
 | contentShortDescriptionTextView | This TextView will disappear if not set |
